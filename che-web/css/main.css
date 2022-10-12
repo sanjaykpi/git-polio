@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Raleway&family=Roboto&display=swap');
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
 *{
     margin: 0;
     padding: 0;
@@ -18,10 +24,12 @@
 .header-logo{
     padding: 15px;
     font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
 }
 .header-navigation ul li a{
     text-decoration: none;
     color: black;
+    font-family: 'Poppins', sans-serif;
 }
 .nav-last{
     border: 1px solid lightgray;
@@ -54,12 +62,15 @@
 .banner-left h3,.banner-left ul,
 .banner-left p{
     margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
 }
 .banner-left h2{
     font-size: 35px;
+    font-family: 'Raleway', sans-serif;
 }
 .banner-left p{
     font-size: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 .banner-left button{
     padding: 10px;
@@ -67,8 +78,209 @@
     background-color: #fff;
     border: none;
     font-size: 15px;
+    font-family: 'Raleway', sans-serif;
 }
 .banner-right{
     font-size: 50px;
+    color: #fff;
+}
+.banner-down-left span{
+    position: relative;
+}
+.banner-down-full span::after{
+    content: "";
+    height: 2px;
+    width: 100px;
+    background-color: gray;
+    position: absolute;
+    top: 10px;
+    right: -105px;
+}
+.banner-down-full{
+    display: flex;
+    margin-top: 20px;
+}
+.banner-d-left{
+    margin-left: 110px;
+}
+.banner-d-left i{
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 8px;
+}
+.banner-down{
+    display: flex;
+    justify-content: space-evenly;
+}
+.banner-down-right{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    
+}
+.banner-down-one,.banner-down-two,
+.banner-down-three{
+    border: 2px solid black;
+    padding: 25px 0;
+    margin: 10px;
+    text-align: center;
+    width: 105px;
+    height: 130px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    
+}
+.banner-down-one p,.banner-down-two p,
+.banner-down-three p{
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.banner-down-one span,.banner-down-two span,
+.banner-down-three span{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.banner-down-two{
+    background-color: #7ecbfd;
+}
+.banner-down-three{
+    background-color: black;
+}
+.banner-down-left{
+    padding: 60px;
+}
+ .banner-down-right{
+    margin: 30px 80px 0 0;
+}
+.ban-down-first p{
+    line-height: 1.4;
+    font-family: 'Raleway', sans-serif;
+}
+.ban-down-first span{
+    color: #7ecbfd;
+}
+.banner-c-left span{
+    font-family: 'Open Sans', sans-serif;
+}
+.about{
+    background-color: rgb(227 244 249);
+}
+.about-top{
+    text-align: center;
+    line-height: 1.7;
+    padding-top: 40px;
+}
+.about-top p{
+    width: 53%;
+    margin: auto;
+}
+.about-top span{
+    font-size: 13px;
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+}
+.about-top h2{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.about-top p{
+    font-size: 15px;
+    color: gray;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.about-top h2{
+    position: relative;
+}
+.about-top h2::after{
+    content: "";
+    height: 2px;
+    width: 55px;
+    position: absolute;
+    background-color: blue;
+    top: 50px;
+    right: 650px;
+}
+.about-bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+.about-bottom-left img{
+    background-color: lightskyblue;
+    margin-top: 50px;
+    margin-left: 180px;
+    padding: 20px;
+}
+.about-bottom-right{
+    background-color: #fff;
+    width: 50%;
+    padding: 35px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-right: 195px;
+}
+.about-bottom-one span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.about-bottom-one h3{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.about-bottom-one ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -80px;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+    position: relative;
+}
+.about-bottom-one ul::after{
+    content: "";
+    width: 450px;
+    height: 3px;
+    background-color: blue;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+.about-bottom-one p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-top: 25px;
+    color: darkblue;
+}
+.about-bottom-two{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: start;
+    line-height: 1.6;
+    margin-top: 25px;
+}
+.about-bottom-out{
+    margin-left: 60px;
+}
+.about-bottom-two ul{
+    list-style: none;
+}
+.about-bottom-right button{
+    margin-top: 25px;
+    padding: 13px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+}
+.about-bottom-two span{
+    color: darkblue;
+}
+.list{
+    background-color: blue;
+    padding: 10px;
+    margin-top: -10px;
     color: #fff;
 }
