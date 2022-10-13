@@ -284,3 +284,126 @@ font-family: 'Roboto', sans-serif; */
     margin-top: -10px;
     color: #fff;
 }
+  /* service */
+.service-top{
+    text-align: center;
+    line-height: 1.7;
+    padding-top: 40px;
+}
+.service-top p{
+    width: 53%;
+    margin: auto;
+}
+.service-top span{
+    font-size: 13px;
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+}
+.service-top h2{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.service-top p{
+    font-size: 15px;
+    color: gray;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.service-top h2{
+    position: relative;
+}
+.service-top h2::after{
+    content: "";
+    height: 2px;
+    width: 55px;
+    position: absolute;
+    background-color: blue;
+    top: 50px;
+    right: 650px;
+}
+.service-bottom-one{
+    display: flex;
+    padding: 20px;
+}
+.service-bottom-two{
+    display: flex;
+    padding: 10px 20px;
+}
+.service-bottom-in{
+    margin: 10px;
+    padding: 30px 40px;
+    box-shadow: 2px 2px 5px rgb(134, 117, 117);
+}
+.service-bottom-in h3{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+}
+.service-bottom-in p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: darkblue;
+    margin-top: 25px;
+}
+.service-bottom{
+    padding: 30px 100px;
+}
+.service-bottom-in i{
+    color: #fff;
+    font-size: 20px;
+    background-color: blue;
+    padding: 15px;
+    border-radius: 50% 60% 50%;
+    margin-top: 30px;
+}
+       /* resume */
+    .resume{
+        background-color: rgb(227 244 249);
+    }
+    .resume-top{
+        text-align: center;
+        line-height: 1.7;
+        padding-top: 40px;
+    }
+    .resume-top p{
+        width: 53%;
+        margin: auto;
+    }
+    .resume-top span{
+        font-size: 13px;
+        color: blue;
+        font-family: 'Poppins', sans-serif;
+    }
+    .resume-top h2{
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .resume-top p{
+        font-size: 15px;
+        color: gray;
+        margin-top: 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .resume-top h2{
+        position: relative;
+    }
+    .resume-top h2::after{
+        content: "";
+        height: 2px;
+        width: 55px;
+        position: absolute;
+        background-color: blue;
+        top: 50px;
+        right: 650px;
+    }    
+    .resume-bottom{
+        display: flex;
+        padding: 20px;
+    }  
+    .resume-bot-one{
+        display: flex;
+        
+    } 
+    .resume-bot-in,.resume-bottom-in{
+        background-color: #fff;
+        margin: 20px;
+    }
